@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 5vh;
+    padding: 1%;
+    color: white;
+    background-color: #C55394;
+}
+
+header div {
+    float: left;
+    margin: 1em 0;
+}
+
+header>div a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+}
+
+header nav {
+    width: 25%;
+    float: right;
+}
+
+header ul>li {
+    padding: 0 2%;
+    display: inline;
+}
+
+main {
+    padding-top: 5%;
+    background-image: url('../img/background.png');
+}
+
+main>div>p {
+    margin: 0;
+    color: #C55394;
+    padding: 2% 0;
+    font-size: xx-large;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 20%;
+    font-family: 'Courgette', cursive;
+    background-image: url('../img/rainbow.png');
+}
+
+main>div.Content {
+    margin: 0 20%;
+    padding: 5% 2%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 25px black;
+}
+
+main>div.Content p.Text {
+    font-size: small;
+}
+
+.tittlePink {
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+
+footer {
+    height: 3vh;
+    padding: 1%;
+    color: white;
+    background-color: #C55394;
+}
+
+footer>p {
+    margin: 0;
+    text-align: end;
+    float: right;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
